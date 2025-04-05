@@ -44,7 +44,9 @@ function Search() {
         <option value="3-5">3-5</option>
         <option value="5-more">5-more</option> 
       </select>
-      <button className="w-64 bg-blue-400 font-bold py-3 rounded-md">Search</button>
+     <a href="">
+     <button className="w-64 bg-blue-400 font-bold py-3 rounded-md hover:bg-blue-300">Search</button>
+     </a>
     </div>
   );
 }
