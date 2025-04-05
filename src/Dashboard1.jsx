@@ -5,7 +5,7 @@ import Search from "./Components/Searchbar/Search";
 import jobdata from "./Dumydata"
 import "./index.css";
 
-function Dashboard() {
+function Dashboard1() {
   return (
     <>
     {/* All components are listed below */}
@@ -20,4 +20,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default Dashboard1;

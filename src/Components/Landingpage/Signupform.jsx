@@ -10,19 +10,24 @@ function Signupform({ setSignup }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    
+  
     if (password !== confirmPassword) {
       alert("Passwords do not match!");
       return;
     }
-
+  
     if (role === 'Job Seeker') {
-      navigate('/dashboard');
-    } else {
-      alert(`You selected the role: ${role}`);
+      navigate('/dashboard1');
+    } else if (role === 'Hiring Manager') {
+      navigate('/dashboard2');
+    } else if (role === 'Recruiter') {
+      navigate('./dashboard3');
     }
-
+  
     setSignup(false);
   };
+  
 
   return (
     <div className="flex flex-col justify-center relative">
